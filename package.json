@@ -1,0 +1,53 @@
+{
+  "name": "detect-autofill-react",
+  "version": "1.0.0",
+  "description": "React hook to detect browser's autofill",
+  "author": {
+    "name": "Sundar Shahi Thakuri",
+    "url": "https://github.com/sundarshahi",
+    "email": "shahithakurisundar@gmail.com"
+  },
+  "keywords": ["detect-autofill-react","autofill-react","autocomplete","autofill","-webkit-autofill","floating-label"],
+  "homepage": "https://github.com/sundarshahi/detect-autofill-react",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+   "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b ./tsconfig.lib.json && vite build",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint .",
+    "publish-dist": "npm publish --access public",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "glob": "^11.0.0",
+    "globals": "^15.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.4.0",
+    "vite-plugin-lib-inject-css": "^2.1.1"
+  },
+  "sideEffects": [
+   "**/*.css"
+ ]
+}
