@@ -7,7 +7,11 @@ import react from "@vitejs/plugin-react";
 import { libInjectCss } from "vite-plugin-lib-inject-css";
 
 export default defineConfig({
-  plugins: [react(), libInjectCss(), dts({ include: ["lib"] })],
+  plugins: [
+    dts({ tsconfigPath: "./tsconfig.lib.json" }),
+    react(),
+    libInjectCss(),
+  ],
   build: {
     copyPublicDir: false,
     lib: {

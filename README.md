@@ -32,11 +32,10 @@ import React, { useRef } from "react";
 import { useAutofillDetection } from "detect-autofill-react";
 
 const AutofillExample = () => {
-  const formRef = useRef<HTMLFormElement | null>(null);
-  const { isAutofilled } = useAutofillDetection(formRef.current);
+  const { isAutofilled } = useAutofillDetection(document);
 
   return (
-    <form ref={formRef}>
+    <form>
       <div>
         <label htmlFor="username">Username</label>
         <input
