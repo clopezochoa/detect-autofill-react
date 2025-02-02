@@ -1,14 +1,14 @@
 {
-  "name": "detect-autofill-react",
-  "version": "1.0.3",
+  "name": "@clopezochoa/detect-autofill-react",
+  "version": "1.0.4",
   "description": "React hook to detect browser's autofill",
   "author": {
-    "name": "Sundar Shahi Thakuri",
-    "url": "https://github.com/sundarshahi",
-    "email": "shahithakurisundar@gmail.com"
+    "name": "Carlos López-Ochoa Aledo (forked from sundarshahi)",
+    "url": "https://github.com/clopezochoa",
+    "email": "carloslopezochoaaledo@gmail.com"
   },
   "keywords": ["detect-autofill-react","autofill-react","autocomplete","autofill","-webkit-autofill","floating-label"],
-  "homepage": "https://github.com/sundarshahi/detect-autofill-react",
+  "homepage": "https://github.com/clopezochoa/detect-autofill-react",
   "private": false,
   "type": "module",
   "main": "dist/index.js",
@@ -25,27 +25,27 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@types/node": "^22.10.2",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
+    "@eslint/js": "^9.19.0",
+    "@types/node": "^22.12.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.17.0",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
-    "glob": "^11.0.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "glob": "^11.0.1",
     "globals": "^15.14.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript": "~5.6.2",
-    "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5",
-    "vite-plugin-dts": "^4.4.0",
-    "vite-plugin-lib-inject-css": "^2.1.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "~5.7.3",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^6.0.11",
+    "vite-plugin-dts": "^4.5.0",
+    "vite-plugin-lib-inject-css": "^2.2.1"
   },
   "sideEffects": [
    "**/*.css"
