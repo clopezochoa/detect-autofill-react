@@ -1,6 +1,6 @@
 {
   "name": "@clopezochoa/detect-autofill-react",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "React hook to detect browser's autofill",
   "author": {
     "name": "Carlos López-Ochoa Aledo (forked from sundarshahi)",

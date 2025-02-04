@@ -1,1 +1,2 @@
-export { useAutofillDetection } from "./hooks/use-detect-autofill";
+export { useAutofillDetectionRef } from "./hooks/useAutofillDetectionRef";
+export { useAutofillDetectionState } from "./hooks/useAutofillDetectionState";
